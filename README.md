@@ -72,7 +72,7 @@ Jupyter Notebook – Interactive analysis
 
 Clone the repository:
 
-git clone https://github.com/your-username/student-performance-analysis.git
+git clone https://github.com/YadavBarkha/student-performance-analysis.git
 cd student-performance-analysis
 
 
