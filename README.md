@@ -1,130 +1,126 @@
 ![Student Performance View](https://i.ytimg.com/vi/UM5bxbosgD8/maxresdefault.jpg)
 
-##🎓 Student Performance Analysis
 
-This project investigates factors affecting student performance in exams using demographics, parental education, and test preparation course data.
+# 🎓 Student Performance Analysis
 
-It provides insights, visualizations, and recommendations to improve learning outcomes.
+This project explores the factors influencing student performance in exams, focusing on how parental education, gender, lunch type, and test preparation courses affect academic outcomes.
+
+The analysis includes data cleaning, exploratory data analysis (EDA), visualization, and insights generation — followed by actionable recommendations to help improve educational outcomes.
 
 ---
 
 ## 📌 Objectives
 
-* Analyze subject-wise score distributions (Math, Reading, Writing)
-
-* Study the impact of parental education, lunch type, and test preparation courses
-
-*Explore gender and ethnicity trends in academic performance
-
-*Generate actionable insights to support educators and policymakers
-
-  ---
+* Understand overall score distribution in Math, Reading, and Writing.
+* Analyze the effect of parental education on student achievement.
+* Explore how test preparation and lunch programs influence results.
+* Study gender and ethnicity differences in academic performance.
+* Provide data-driven insights & recommendations for educators and policymakers.
   
+---
 
 ## 📊 Key Insights
 
-*Parental Education Matters: Higher parental education → higher student scores
+* Parental Education: Higher parental education correlates with higher student performance.
+* Test Preparation Impact: Students who completed the course scored significantly better across all subjects.
+* Lunch Program: Students with standard lunch generally performed better than those on free/reduced lunch.
+* Gender Trends: Females excelled in Reading and Writing, while males performed slightly better in Math.
+* Ethnicity Influence: Score patterns vary by group, reflecting demographic and resource differences.
 
-* Test Preparation Boosts Performance: Students completing courses score better
-
-* Lunch Program Influence: Standard lunch correlated with slightly better performance
-
-*Gender Differences: Females outperform in Reading & Writing; Math is nearly equal
-
-*Ethnicity Trends: Academic achievement varies across ethnic groups
-
-  ---
   
+---
 
 ## 🚀 Recommendations
 
-* Promote test preparation programs for underperforming students
+* Encourage test preparation course participation to uplift overall performance.
+* Provide targeted support for students whose parents have lower education levels.
+* Monitor and optimize school lunch programs to ensure fairness and nutrition balance.
+* Design personalized teaching strategies considering gender and ethnic trends.
+* Focus on holistic student development, not just academic test results.
 
-* Implement support programs for students with lower parental education
-
-* Monitor lunch programs as they correlate with performance
-
-* Customize teaching strategies considering gender and ethnicity trends
-
+  
 ---
-
 
 ## 🛠️ Tech Stack
 
-Python (pandas, numpy) – Data cleaning & processing
+* **Python** (pandas, numpy) – Data cleaning & processing
+* **Matplotlib / Seaborn** – Data visualization
+* **Jupyter Notebook** – Interactive exploration environment
 
-Matplotlib / Seaborn – Data visualization & EDA
+---
 
-Jupyter Notebook – Interactive analysis
+## 📂 Project Structure
 
-
-📂 Project Structure
+```
 ├── data/                  # Raw & cleaned datasets
 ├── notebooks/             # Jupyter notebooks
 ├── images/                # Visualizations exported from notebooks
 ├── requirements.txt       # Dependencies
 ├── LICENSE                # License file (MIT)
 ├── README.md              # Project overview (this file)
+```
 
+---
 
+## ⚙️ How to Run
 
-⚙️ How to Run
+1. Clone this repository
 
-Clone the repository:
-
-git clone https://github.com/YadavBarkha/student-performance-analysis.git
+   ```bash
+  git clone https://github.com/your-username/student-performance-analysis.git
 cd student-performance-analysis
+   ```
 
+2. Install dependencies
 
-Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
+3. Launch Jupyter Notebook
 
+   ```bash
+   jupyter notebook
+   ```
 
-Launch Jupyter Notebook:
+4. Open `student-performance-analysis.ipynb` and run the cells step by step.
 
-jupyter notebook
+---
 
+## 📊 Results
 
-Open student-performance-analysis.ipynb and run the cells step by step
+Here are some key visualizations from the analysis:
 
+* **Parental Education**
+  ![Listings Growth](https://github.com/YadavBarkha/Air/blob/main/images/Screenshot%202025-09-29%20161542.png)
 
+* **Predicted vs Actual GradeClass**
+  ![Price by Locality](https://github.com/YadavBarkha/Air/blob/891753271f2c89051964089b095c1bd063d544b8/images/Screenshot%202025-09-29%20161908.png)
 
-## 📊 Sample Visualizations
+* **Top 5 Features**
+  ![Regulation Impact](https://github.com/YadavBarkha/Air/blob/891753271f2c89051964089b095c1bd063d544b8/images/Screenshot%202025-09-29%20162425.png)
 
-Parental Education vs Average Score
-<img width="1143" height="580" alt="Screenshot 2025-10-24 181300" src="https://github.com/user-attachments/assets/e28a15de-4a99-4859-a4f8-0b0576524450" />
-
-
-
-Predicted vs Actual GradeClass
-<img width="1316" height="750" alt="Screenshot 2025-10-24 181217" src="https://github.com/user-attachments/assets/67e9e67c-8948-4c6d-8c86-93ac3398b8c7" />
-
-
+---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE
- file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
 ## 🙌 Acknowledgments
 
-Dataset from Kaggle: Students Performance in Exams
+* Dataset sourced from Kaggle: Students Performance in Exams
+* Inspired by real-world educational analytics and data-driven policy research
 
-Inspiration from EDA tutorials and educational research papers
-
-
+---
 
 ## 🚀 Future Work
 
-Build predictive models to forecast student scores
+* Add predictive modeling to forecast student scores based on demographic features.
+* Compare results with international education datasets.
+* Build an interactive dashboard using Plotly, Power BI, or Tableau.
+---
 
-Extend analysis to other regions or age groups for broader insights
-
-Develop interactive dashboards with Plotly or Power BI
-
-
-
-✅ Final Note:
-This project demonstrates how data-driven insights can uncover factors influencing student performance and guide effective educational strategies.
+✅ **Final Note:**
+This project demonstrates how data analytics can uncover patterns in student achievement and help educators design evidence-based interventions to improve learning outcomes.
