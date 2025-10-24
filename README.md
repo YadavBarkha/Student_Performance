@@ -67,8 +67,9 @@ The analysis includes data cleaning, exploratory data analysis (EDA), visualizat
 1. Clone this repository
    
    ```bash
-  git clone https://github.com/your-username/student-performance-analysis.git
-cd student-performance-analysis
+   git clone https://github.com/your-username/student-performance-analysis.git
+   cd student-performance-analysis
+
    ```
 
 2. Install dependencies
