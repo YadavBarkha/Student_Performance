@@ -65,7 +65,7 @@ The analysis includes data cleaning, exploratory data analysis (EDA), visualizat
 ## ⚙️ How to Run
 
 1. Clone this repository
-
+   
    ```bash
   git clone https://github.com/your-username/student-performance-analysis.git
 cd student-performance-analysis
@@ -92,13 +92,13 @@ cd student-performance-analysis
 Here are some key visualizations from the analysis:
 
 * **Parental Education**
-  ![Listings Growth](https://github.com/YadavBarkha/Air/blob/main/images/Screenshot%202025-09-29%20161542.png)
+  ![Parental Education](https://github.com/YadavBarkha/Student_Performance/blob/main/images/Screenshot%202025-10-24%20181300.png)
 
 * **Predicted vs Actual GradeClass**
-  ![Price by Locality](https://github.com/YadavBarkha/Air/blob/891753271f2c89051964089b095c1bd063d544b8/images/Screenshot%202025-09-29%20161908.png)
+  ![Predicted vs Actual](https://github.com/YadavBarkha/Student_Performance/blob/main/images/Screenshot%202025-10-24%20181217.png)
 
 * **Top 5 Features**
-  ![Regulation Impact](https://github.com/YadavBarkha/Air/blob/891753271f2c89051964089b095c1bd063d544b8/images/Screenshot%202025-09-29%20162425.png)
+  ![Top Features](https://github.com/YadavBarkha/Student_Performance/blob/main/images/Screenshot%202025-10-24%20191616.png)
 
 ---
 
