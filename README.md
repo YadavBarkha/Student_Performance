@@ -36,7 +36,7 @@ It provides insights, visualizations, and recommendations to improve learning ou
   ---
   
 
-##🚀 Recommendations
+## 🚀 Recommendations
 
 * Promote test preparation programs for underperforming students
 
@@ -88,15 +88,18 @@ jupyter notebook
 
 Open student-performance-analysis.ipynb and run the cells step by step
 
-📊 Sample Visualizations
 
-Subject-wise Score Distribution
 
+## 📊 Sample Visualizations
 
 Parental Education vs Average Score
+<img width="1143" height="580" alt="Screenshot 2025-10-24 181300" src="https://github.com/user-attachments/assets/e28a15de-4a99-4859-a4f8-0b0576524450" />
 
 
-Test Preparation vs Exam Performance
+
+Predicted vs Actual GradeClass
+<img width="1316" height="750" alt="Screenshot 2025-10-24 181217" src="https://github.com/user-attachments/assets/67e9e67c-8948-4c6d-8c86-93ac3398b8c7" />
+
 
 
 ## 📜 License
@@ -104,11 +107,14 @@ Test Preparation vs Exam Performance
 This project is licensed under the MIT License - see the LICENSE
  file for details
 
+
 ## 🙌 Acknowledgments
 
 Dataset from Kaggle: Students Performance in Exams
 
 Inspiration from EDA tutorials and educational research papers
+
+
 
 ## 🚀 Future Work
 
@@ -117,6 +123,8 @@ Build predictive models to forecast student scores
 Extend analysis to other regions or age groups for broader insights
 
 Develop interactive dashboards with Plotly or Power BI
+
+
 
 ✅ Final Note:
 This project demonstrates how data-driven insights can uncover factors influencing student performance and guide effective educational strategies.
